@@ -16,7 +16,35 @@
             <li><a href=presentation.html>Presentation</a></li>
         </ul>
         
-        <p>Här kommer det att finnas kontaktuppgifter...</p>
+        <p>Här kan ni kontakta mig:</p>
+        
+<!-- Formulär -->
+    <form name="form" method="post" action="http://voyager.lnu.se/tekinet/kurser/dtt/wp_webbintro/form.php">
+<fieldset>
+    <legend>Fråga</legend>
+    <p>Ärende:</p>
+    <select name="ärende">
+        <option value="1">Fråga</option>
+        <option value="2">Svar</option> 
+        <option value="3">Övrigt</option>
+    </select>
+
+    <p>Rubrik:</p>
+    <input type="text" name="rubrik">
+
+    <p>Fråga:</p>
+    <textarea name="beskrivning" class="yellow" cols="45" rows="10"></textarea>
+<br>
+</fieldset>
+<br>
+<fieldset>
+    <legend>Information om dig</legend>
+        Kontakta mig via mail <input type="checkbox" name="information" value="mail" /> <br>
+        Kontakta mig via telefon <input type="checkbox" name="information" value="telefon" />
+<br>
+</fieldset>
+    <input type="submit" class="knappar" name="skicka" value="Skicka frågan">
+    </form>
 
 
     </body>
