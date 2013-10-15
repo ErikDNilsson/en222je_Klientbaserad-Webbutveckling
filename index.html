@@ -3,23 +3,33 @@
     <head> 
         <meta charset="utf-8" />
         <title>Startsida</title>
+        <link rel="stylesheet" href="basic.css" />
     </head>
     <body>
     
+    <header>
     <img src="pics/logo.png" alt="Erik logo" width="200" height="100" />
     
-    <h1>Eriks hemsida</h1>
+    
 <!-- Länkar -->
+    <nav>
         <ul>
             <li><a href=index.html>Startsida</a></li>
             <li><a href=pages/kontakt.html>Kontakt</a></li>
             <li><a href=pages/laborationer.html>Laborationer</a></li>
             <li><a href=pages/presentation.html>Presentation</a></li>
         </ul>
-        
-        <p>Hej och välkommen till min sida!</p>
-        
+    </nav>
+    </header>
+
+    <div id="content">
+        <h1>Hej och välkommen till min sida!</h1>
+        <p>Här står information om denna sida...</p>
+    </div>
     
+<!-- Här börjar bloggen -->
+<article>
+<h2>Blogginlägg</h2>
 <!-- Första inlägget startar här -->
 
     <h2>Mitt första inlägg</h2>
@@ -27,7 +37,7 @@
         Denna sida kommer att uppdateras med information om mig, samt de uppgifter som jag lägger upp, allt eftersom kursen fortskrider.
         </p>
         <p>Skrivet av Erik, 2013-10-07</p>
-        
+
 <!-- Andra inlägget startar här -->
 
     <a id="blogg2"><h2>Mitt andra inlägg</h2></a>
@@ -35,7 +45,7 @@
         </p>
             <img src="pics/Me-01.svg" alt="Illustration av mig själv" height="500" width="400" />
         <p>Skrivet av Erik, 2013-10-08</p>
-        
+
 <!-- Tredje inlägget startar här -->
 
     <a id="blogg3"><h2>Mitt tredje inlägg</h2></a>
@@ -46,7 +56,17 @@
            <p>Filmen är hämtad hos: <a href="http://www.bigbuckbunny.org">http://www.bigbuckbunny.org</a></p>
 
         <p>Skrivet av Erik, 2013-10-08</p>
+</article>
+<!-- Här slutar bloggen -->
 
+<!-- Här börjar högerspalten -->
+<article>
+    <h2>Om denna sida</h2>
+    <p>På denna sida kommer du att kunna finna information om mig, Erik Nilsson. Du kommer också att
+    kunna följa mitt arbete och mina framsteg i kursen Klientbaserad Webbutveckling.</p>
+    
+</article>
+<!-- Här slutar högerspalten -->
 
     </body>
 </html>
