@@ -45,6 +45,12 @@ nav ul, li {
     margin: 0px 0px 5px 0px;
     background-color: #6FB7E9; 
     color: #ffffff; }
+
+#content_laboration {
+    width: 950px;
+    padding: 5px;
+    margin: 0px 0px 5px 0px;
+    background-color: #ffffff; }
     
 article {
     width: 460px;
@@ -55,6 +61,11 @@ article {
     
 .artikelrubrik {
     color: #3C8DC5; }
+    
+.right {
+    float: right; }
+.left {
+    float: left; }
     
 footer {
     clear: left;
