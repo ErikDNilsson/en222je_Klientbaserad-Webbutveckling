@@ -67,6 +67,12 @@ article {
 .left {
     float: left; }
     
+table, td, th {
+border:1px solid #3c8cc5; }
+th {
+background-color:#6fb6e9;
+color: #ffffff; }
+    
 footer {
     clear: left;
     margin: 10px 0px;
