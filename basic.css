@@ -49,14 +49,14 @@ nav ul, li {
 #content_laboration {
     width: 950px;
     padding: 5px;
-    margin: 0px 0px 5px 0px;
+    margin: 0 0 5px 0;
     background-color: #ffffff; }
     
 article {
     width: 460px;
     float: left;
     margin: 5px; 
-    padding: 0px 5px;
+    padding: 0 5px;
     background-color: #ffffff; }
     
 .artikelrubrik {
@@ -75,9 +75,36 @@ color: #ffffff; }
     
 footer {
     clear: left;
-    margin: 10px 0px;
-    padding: 5px 0px;
+    margin: 10px 0;
+    padding: 5px 0;
     text-align: center;
     background-color: #E9F2F9;
     width: 100%;
     height: 50px; }
+
+.sprite {
+    position: relative;
+    height: 24px;
+    padding-left: 30px;
+    background-image: url("pics/sprite.png"); 
+    background-repeat: no-repeat; }
+
+.sprite#hem {
+    background-position: 0 -48px; }
+.sprite#hem:hover {
+    background-position: 0 0; }
+    
+.sprite#kontakt {
+    background-position: 0 -336px; }
+.sprite#kontakt:hover {
+    background-position: 0 -288px; }
+    
+.sprite#laboration {
+    background-position: 0 -144px; }
+.sprite#laboration:hover {
+    background-position: 0 -96px; }
+    
+.sprite#presentation {
+    background-position: 0 -240px; }
+.sprite#presentation:hover {
+    background-position: 0 -192px; }
