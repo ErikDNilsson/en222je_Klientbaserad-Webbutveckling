@@ -4,6 +4,7 @@
         <meta charset="utf-8" />
         <title>Laborationer</title>
         <link rel="stylesheet" href="../basic.css" />
+        <script type="text/javascript" src="laboration5.js"></script>
     </head>
     <body>
     
@@ -30,8 +31,11 @@
         </ul>
         
 <!-- Tabel för betyg -->
+
+<button onclick=toggletable("hide") id="button" type="button">Hide/Show</button>
     
-    <table border="1">
+<div id="hide">
+    <table id="table1" border="1">
     <thead>
       <tr>
         <th>Laboration</th> 
@@ -96,7 +100,7 @@
         </tr>
     </tfoot>
     </table>
-
+</div>
         
 <!-- Laboration 1 -->
     <h3><a id="labb1">Laboration 1</a></h3>
