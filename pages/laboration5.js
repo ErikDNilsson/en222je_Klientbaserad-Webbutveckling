@@ -1,35 +1,15 @@
-// Test
-//console.log("Test");
-//function toggletable() {
-    //alert ("Hello world!");
-    //}
-    
-
-funktion toggletable() {
-    var table = document.getElementById("hide");
-    var displaySet = hide.style.display;
-    var hideshow = document.getElementById("hideshow");
-
+function toggletable() {
+    // Hämta DIV-taggen och döp den till "div"
+    // = tilldela
+    var div = document.getElementById("hide");
+    // displaySet visar vad "div" har för display-stil. ("style" hämtar CSS-stil)
+    var displaySet = div.style.display;
+    // Om stilen är display: block; , sätt den till display: none; 
     if (displaySet === "block") {
-        table.style.display = "none";
+        div.style.display = "none";
     }
+    // Annars (om den är "none") sätt den till display: block;
     else {
-        table.style.display = "block";
+        div.style.display = "block";
     }
 }
-
-
-//function hide_menu(table1){
-//document.getElementById(table1).style.display = "none";
-//}
-//function show_menu(table1){
-//document.getElementById(table1).style.display = "block";
-//}
-
-//function toggletable (){
-    //if (document.getElementById("table1").style.display === "none") show_menu ("table1"); 
-    //else hide_menu ("table1");
-//}
-
-
-

@@ -67,10 +67,6 @@ article {
 .left {
     float: left; }
     
-#hide {
-    display:block;
-}
-    
 table, td, th {
 border:1px solid #3c8cc5; }
 th {
